@@ -1,0 +1,104 @@
+body {
+  width: 100vw;
+  text-align: center;
+  background-color: rgb(204, 204, 204);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+h1 {
+  margin: 0;
+}
+span {
+  background-color: rgb(73, 73, 73);
+  color: rgb(228, 228, 228);
+  padding: 0;
+  margin: 0;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  margin: 5px;
+}
+p {
+  display: flex;
+  justify-content: center;
+}
+
+#stitre {
+  display: block;
+  transition: 0.5s ease;
+  padding: 10px;
+}
+#stitre:hover {
+  outline: 4px dashed black;
+}
+#btn {
+  border: 4px solid black;
+  background-color: rgba(255, 255, 255, 0.4);
+  transition: 0.5s ease;
+}
+#btn:hover {
+  background-color: rgba(75, 75, 75, 0.6);
+  cursor: pointer;
+}
+a {
+  color: black;
+  font-size: xx-large;
+  outline: 1px dashed black;
+}
+label {
+  width: 60px;
+}
+textarea {
+  width: 20vw;
+  height: 10vh;
+  min-width: 20vw;
+  min-height: 10vh;
+
+  max-height: 10vh;
+  max-width: 20vw;
+}
+input[type="text"] {
+  width: 20vw;
+  height: 3vh;
+}
+.message:first-of-type {
+  margin-top: 5vh;
+}
+.message {
+  width: 50vw;
+
+  outline: 2px solid white;
+}
+img {
+  width: 10%;
+  height: auto;
+}
+.imgleft {
+  align-self: flex-end;
+}
+#small {
+  font-size: xx-small;
+}
+#fimg {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#fimg label {
+  height: 50%;
+  width: 100%;
+}
+
+form[action="insert_img.php"] {
+  width: 40%;
+  outline: 4px solid black;
+  margin-top: 50px;
+}
